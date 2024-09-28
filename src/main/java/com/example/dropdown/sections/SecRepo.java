@@ -1,4 +1,4 @@
-package com.example.dropdown.Section;
+package com.example.dropdown.sections;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

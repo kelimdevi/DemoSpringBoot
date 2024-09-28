@@ -1,9 +1,7 @@
 package com.example.dropdown.Dept;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+
 
 @Entity
 public class Department {
@@ -15,12 +13,7 @@ public class Department {
     private String deptName;
     private String shortForm;
 
-    public Department(){}
-    public Department(String deptName,String shortForm)
-    {
-        this.deptName=deptName;
-        this.shortForm=shortForm;
-    }
+
 
     public Long getId() {
         return id;
